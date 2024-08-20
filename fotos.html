@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condomínio Fênix - Fotos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Condomínio Fênix</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="documentos.html">Documentos</a></li>
+                <li><a href="proprietarios.html">Proprietários</a></li>
+                <li><a href="mapa.html">Mapa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Fotos</h2>
+   
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="imagens/foto1.jpg" alt="Foto 1">
+                <img src="imagens/foto2.jpg" alt="Foto 2">
+                <img src="imagens/foto3.jpg" alt="Foto 3">
+              
+            </div>
+            <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Condomínio Fênix. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
